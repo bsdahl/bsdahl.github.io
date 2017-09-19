@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Interactive Tile Mockup
-date: 2017-09-15 19:03:10 +0000
+title:  "Interactive Tile Mockup"
+date:   2017-09-15 12:03:10 -0700
+
 images:
-- url: assets/img/blog/mockup-tile.png
-  alt: Interactive Tile Mockup
-  caption: Interactive Tile Mockup
+
+  - url: assets/img/blog/mockup-tile.png
+    alt: Interactive Tile Mockup
+    caption: Interactive Tile Mockup
+
 ---
 Recently a client came to me with an idea. They wanted to create a form that would include an interactive preview of the finished product, in this case a tile with the name of a donor. See the interactive mockup I created recently to showcase the possibilities. 
 

@@ -2,8 +2,9 @@
 layout: page
 title: My Portfolio
 permalink: "/portfolio/"
+
 images:
-- url: assets/img/hire.jpg
+ - url: assets/img/hire.jpg
 ---
 <!-- START PORTFOLIO -->
 <section id="portfolio">
