@@ -39,7 +39,7 @@
 
     $(window).on('load', function() {
         $(".typing").typed({
-            strings: ["I am A Web Developer.", "I am A recent Graduate.", "and I would like to work for you."],
+            strings: ["I am a Web Developer.", "I have 7 years of proffesional experience.", "and I would like to work for you."],
             typeSpeed: 70
         });
     });
