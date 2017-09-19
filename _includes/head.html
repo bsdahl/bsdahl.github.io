@@ -1,0 +1,35 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- TAB NAME -->
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <!-- TAB ICON -->
+  <link rel="icon" href="{{ "assets/img/favicon.ico" | relative_url }}" type="image/x-icon">
+  <!-- BOOTSTRAP FRAMEWORK -->
+  <link rel="stylesheet" href="{{ "assets/css/bootstrap.min.css" | relative_url }}">
+  <!-- ICON FONTS -->
+  <link rel="stylesheet" href="{{ "assets/css/font-awesome.min.css" | relative_url }}">
+  <!-- ANIMATION -->
+  <link rel="stylesheet" href="{{ "assets/css/aos.css" | relative_url }}">
+  <!-- TESTIMONIAL SLIDER PLUGIN -->
+  <link rel="stylesheet" href="{{ "assets/css/flexslider.css" | relative_url }}">
+  <!-- IMAGES SHOW PLUGIN -->
+  <link rel="stylesheet" href="{{ "assets/css/magnific-popup.css" | relative_url }}">
+  <!-- MAIN STYLE -->
+  <link rel="stylesheet" href="{{ "assets/css/style.css" | relative_url }}">
+  <!-- RESPONSIVES -->
+  <link rel="stylesheet" href="{{ "assets/css/style-responsives.css" | relative_url }}">
+  <!-- FONT FAMILY -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700" rel="stylesheet">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
+</head>

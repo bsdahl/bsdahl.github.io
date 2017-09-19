@@ -1,0 +1,46 @@
+---
+layout: default-post
+---
+<!-- START HEADER -->
+<div id="header" class="home-background overlay" style="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="portfolio-heading text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END HEADER -->
+
+<!-- START POST -->
+<section id="post">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="image-mockup">
+                    <a href="{{ page.portfolio_url }}" target="_blank"><img src="{{ page.images[0].url | relative_url }}" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <h1 class="f-white">{{ page.title | escape }}</h1>
+                <hr class="line-title-left">
+                <ul class="portfolio-meta">
+                    <li>{% assign date_format = site.minima.date_format | default: "%Y" %}{{ page.date | date: date_format }}</li>
+                    <li><a href="{{ page.portfolio_url }}" target="_blank">{{ page.portfolio_url }}</a></li>
+                </ul>
+                <div class="portfolio-labels">
+                    {% assign tags = page.tags | sort %}
+                    {% for tag in tags %}
+                        <span class="label label-default">{{ tag | capitalize }}</span>
+                    {% endfor %}
+                </div>
+
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END POST -->

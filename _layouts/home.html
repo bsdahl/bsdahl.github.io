@@ -1,0 +1,222 @@
+---
+layout: default
+---
+
+<!-- START HOME -->
+<div id="home" class="home-background overlay" style="background-image: url('assets/img/home-bg.jpg')" data-stellar-background-ratio="0.6">
+    <div class="container">
+        <div class="row">
+            <div class="home-text">
+                <!-- Home Text Descriptions (Change Typing Text in JS/Main.js) -->
+                <h1 data-aos="zoom-in" data-aos-delay="1000">My name is Ben, <span class="typing"></span></h1>
+                <p data-aos="fade-up" data-aos-delay="1000"><a class="smoth-scroll btn btn-light" href="#about">Lets, Discover me</a></p>
+            </div>
+            <a class="smoth-scroll" href="#about"><i class="fa fa-angle-down arrow"></i></a>
+        </div>
+    </div>
+</div>
+<!-- END HOME -->
+
+<!-- START ABOUT -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-5 col-sm-6 about-img">
+                    <img src="assets/img/about-img.jpg" height="500" class="img-responsive" alt="John Doe" />
+                </div>
+                <div class="col-md-7 col-sm-6">
+                    {{ content }}
+                    <ul class="social-icons">
+                        <li><a href="{{ site.linkedin_url }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="{{ site.facebook_url }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="{{ site.twitter_url }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="{{ site.instagram_url }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="{{ site.github_url }}" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li><a href="{{ site.codepen_url }}" target="_blank"><i class="fa fa-codepen"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END ABOUT -->
+
+<!-- START SKILLS  -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-12 col-md-8 col-md-offset-2 text-center">
+                    <h2>Top Skills</h2>
+                    <hr class="line-title-center">
+                </div>
+                {% for skill in site.data.skills limit:4 %}
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-item">
+                        <i class="fa {{ skill.icon }}"></i>
+                        <h5>{{ skill.title }}</h5>
+                        <p>{{ skill.description }} </p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-md-12">
+                    <h3 style="margin-top:35px;">Additional Skills</h3>
+                    <hr class="line-title-left">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            {% assign skills =  site.data.skills | map: 'title' | sort %}
+            {% for skill in skills %}
+                <button type="button" class="skill-item btn btn-light">{{ skill }}</button>
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+</section>
+<!-- END SERVICES -->
+
+<!-- START PORTFOLIO -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h2>My Portfolio</h2>
+                <hr class="line-title-center">
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <div class="col-md-12 filter-btn text-center">
+                    <div class="filter active" data-filter="all">All</div>
+                    {% assign tags =  site.portfolio | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+                    {% for tag in tags %}
+                      <div class="filter {% if forloop.last == true %}lst-cld{% endif %}" data-filter=".{{ tag }}">{{ tag | capitalize }}</div>
+                    {% endfor %}
+                </div>
+                <div id="port-image" class="container">
+                    <div class="row">
+                      {% for item in site.portfolio %}
+                        <div class="col-md-4 col-sm-6 col-xs-12 grid mix {% for tag in item.tags %}{{ tag }} {% endfor %}">
+                            <a href="{{ item.url | relative_url }}" class="">
+                                <figure class="port-item">
+                                    <img src="{{ item.images[0].url | relative_url }}" class="img-responsive" alt="{{ item.images[0].alt }}">
+                                    <figcaption>
+                                        <h5>{{ item.title }}</h5>
+                                        <p class="description">{{ item.images[0].caption }}</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                      {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END PORTFOLIO -->
+
+<!-- START HIRE -->
+<section id="hire" style="background-image: url('assets/img/hire.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>I am seeking a full-time job.</h2>
+                <p><a href="#contact" class="smoth-scroll btn btn-light-outline with-arrow">Hire Me<i class="fa fa-envelope-o"></i></a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END HIRE -->
+
+<!-- START BLOG -->
+<section id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h2>Blog</h2>
+                <hr class="line-title-center">
+            </div>
+            {% for post in site.posts %}
+            <div class="col-md-4 col-sm-6 col-padding">
+                <div class="blog-item">
+                    <a href="{{ post.url | relative_url }}" class="blog-img"><img src="{{ post.images[0].url | relative_url }}" class="img-responsive" alt="{{ post.images[0].alt }}"></a>
+                    <div class="blog-desc">
+                        <h5><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h5>
+                        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                        <p><span class="post-meta">{{ post.date | date: date_format }}</span></p>
+                        <a href="{{ post.url | relative_url }}" class="btn btn-dark">Read more</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- END BLOG -->
+
+<!-- START CONTACT -->
+<section id="contact" class="text-center">
+    <div class="container">
+        <div class="row">
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="col-md-12">
+                    <h2>Contact</h2>
+                    <hr class="line-title-center">
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-4 col-sm-4">
+                        <i class="fa fa-envelope-o fa-2x"></i>
+                        <p>{{ site.email }}</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <i class="fa fa-map-marker fa-2x"></i>
+                        <p>{{ site.location }}</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <p>{{ site.phone }}</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <br>
+                    <h5>Leave me a message</h5>
+                    <form id="contact-form" name="contact" action="https://formspree.io/{{ site.email }}"
+      method="POST" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <button id="submit" type="submit" name="submit" class="btn-send btn-send-dark">Send Message</button>
+                        <div id="success">
+                            <p class="green textcenter">Your message was sent, Thank you.</p>
+                        </div>
+                        <div id="error">
+                            <p>Something maybe wrong please try again</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END CONTACT -->

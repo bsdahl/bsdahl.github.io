@@ -1,0 +1,50 @@
+<!-- START PRELOADER -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+            <p>Benjamin Dahl</p>
+        </div>
+    </div>
+    <!-- END PRELOADER -->
+
+    <!-- START NAVIGATION -->
+    <div id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="logo">
+                        <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="navigation-menu">
+                        <div class="navbar">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a class="smoth-scroll line active" href="{% if page.layout == 'home' %}#top{% else %}{{ "/" | relative_url }}{% endif %}">Home</a></li>
+                                    <li><a class="smoth-scroll line" href="{% if page.layout == 'home' %}#about{% else %}{{ "#about" | relative_url }}{% endif %}">About</a></li>
+                                    <li><a class="smoth-scroll line" href="{% if page.layout == 'home' %}#services{% else %}{{ "#services" | relative_url }}{% endif %}">Skills</a></li>
+                                    <li><a class="smoth-scroll line" href="{% if page.layout == 'home' %}#portfolio{% else %}{{ "#portfolio" | relative_url }}{% endif %}">Portfolio</a></li>
+                                    <li><a class="smoth-scroll line" href="{% if page.layout == 'home' %}#blog{% else %}{{ "#blog" | relative_url }}{% endif %}">Blog</a></li>
+                                    <li><a class="smoth-scroll line" href="{% if page.layout == 'home' %}#contact{% else %}{{ "#contact" | relative_url }}{% endif %}">Contact</a></li>
+                                </ul>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAVIGATION -->

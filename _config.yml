@@ -13,20 +13,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Benjamin
+email: bdahl1@liberty.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Benjamin Dahl is a freelance Web Developer specializing in WordPress site design
+  and development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+location: Camarillo, CA
+phone: (218) 684-1160
+linkedin_url: https://www.linkedin.com/in/benjamin-dahl-46b09a129/
+facebook_url: https://www.facebook.com/benjamindahl
+twitter_url: https:///www.twitter.com/bsdahl
+instagram_url: https://www.instagram.com/bsdahl
+github_url:  https://github.com/bsdahl
+codepen_url: https://codepen.io/bsdahl
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 
@@ -41,3 +46,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
