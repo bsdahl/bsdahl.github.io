@@ -1282,7 +1282,9 @@ fieldset {
     top: 10%;
     left: 13.9%;
     width: 73%;
+    -webkit-clip-path: inset(0 0 21% 0);
     clip-path: inset(0 0 21% 0);
+    clip: rect(0 0 21% 0);
 }
 
 .portfolio-meta {
