@@ -1,19 +1,20 @@
+---
 - title: HTML5
   icon: fa-html5
-  description: Expert level. I've been working in HTML for over 11 years. I take HTML5 semantics very seriously.
-
+  description: Expert level. I've been working in HTML for over 11 years. I take HTML5
+    semantics very seriously.
 - title: CSS3
   icon: fa-css3
-  description: Pro level. I can build responsive websites using media queries and display units.
-
+  description: Pro level. I can build responsive websites using media queries and
+    display units.
 - title: PHP
   icon: fa-code
-  description: I am very comfortable building WordPress templates and plugins in PHP, as well as database driven applications.
-
+  description: I am very comfortable building WordPress templates and plugins in PHP,
+    as well as database driven applications.
 - title: WordPress
   icon: fa-wordpress
-  description: My bread and butter; I've built over 50 websites for various clients using the world's most popular content management system.
-
+  description: My bread and butter; I've built over 50 websites for various clients
+    using the world's most popular content management system.
 - title: AngularJS
 - title: Bash
 - title: C
@@ -40,8 +41,8 @@
 - title: YAML
 - title: Liquid
 - title: Joomla
-- title: "Google Maps API"
-- title: "Paypal API"
-- title: "Google Analytics"
-- title: "Ham Radio"
+- title: Google Maps API
+- title: Paypal API
+- title: Google Analytics
+- title: Ham Radio
 - title: Amazon Web Services
