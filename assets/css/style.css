@@ -689,7 +689,7 @@ hr.line-title-left {
 }
 
 .grid figure:hover {
-    background: rgba(0, 0, 0, 4);
+    background: rgba(0, 0, 0, 1);
 }
 
 .grid figure img {
@@ -698,6 +698,10 @@ hr.line-title-left {
     //min-height: 100%;
     max-width: 100%;
     opacity: 0.9;
+}
+
+.grid figure:hover img {
+    opacity: .3;
 }
 
 .grid figure figcaption {
