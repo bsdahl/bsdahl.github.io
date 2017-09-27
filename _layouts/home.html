@@ -98,7 +98,8 @@ layout: default
                 </div>
                 <div id="port-image" class="container">
                     <div class="row">
-                      {% for item in site.portfolio %}
+                      {% assign sorted_items = (site.portfolio | sort: 'title') %}
+                      {% for item in sorted_items %}
                         <div class="col-md-4 col-sm-6 col-xs-12 grid mix {% for tag in item.tags %}{{ tag }} {% endfor %}">
                             <a href="{{ item.url | relative_url }}" class="">
                                 <figure class="port-item">
