@@ -9,7 +9,7 @@ images:
 
   - url: assets/img/portfolio/abelproductions.com-1366x1073-cropped.png
     alt: AbelProductions.com
-    caption: AbelProductions.com
+    caption: Abel Productions Cinematography using WordPress and Video background
 ---
 
 In 2014 I built this website for a friends cinematography business in exchange he filmed my wedding. This site features a full-width video banner hosted on vimeo.com. 

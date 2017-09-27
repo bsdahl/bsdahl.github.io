@@ -8,7 +8,7 @@ images:
 
   - url: assets/img/portfolio/afteraflbs.org-1366x1073-cropped.png
     alt: AfterAFLBS.ORG
-    caption: Webmaster for the Association Free Lutheran Bible School
+    caption: New informational site for my previous employer
 ---
 
 During my time working for AFLBS as a Web Developer & Administrator I designed an launched several websites including this one featuring content for prospective students and parents.
