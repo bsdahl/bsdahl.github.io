@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/bdahl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bsdahl.github.io
+  * I am bdahl (https://keybase.io/bdahl) on keybase.
+  * I have a public key ASCXTdL8iJnW0gotE4Qv2-E5jZXW7UIvs6B5C5Q0_cdq3wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120974dd2fc8899d6d20a2d13842fdbe1398d95d6ed422fb3a0790b9434fdc76adf0a",
+      "host": "keybase.io",
+      "kid": "0120974dd2fc8899d6d20a2d13842fdbe1398d95d6ed422fb3a0790b9434fdc76adf0a",
+      "uid": "542d0f6f24e0986f3d59795e1f2ad319",
+      "username": "bdahl"
+    },
+    "merkle_root": {
+      "ctime": 1507246536,
+      "hash": "fe2bbaa1e4b638d40fceacf24675c6953620f2a54f982dde4292bed5423fc16c2534bde9c0211f5b2e59bc28381849037780abdb2fa706cef0680b8a3164f332",
+      "hash_meta": "b6f960ad228da3b6885ff14c53fc62f201b0f1ab84085423ea0c7a02eae880dc",
+      "seqno": 1520734
+    },
+    "service": {
+      "hostname": "bsdahl.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507246575,
+  "expire_in": 504576000,
+  "prev": "97838b91864cfb6a4a3ffd7f4f4286e827588add43e36579c3fbda280af2805a",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgl03S/IiZ1tIKLROEL9vhOY2V1u1CL7OgeQuUNP3Hat8Kp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTc0ZGQyZmM4ODk5ZDZkMjBhMmQxMzg0MmZkYmUxMzk4ZDk1ZDZlZDQyMmZiM2EwNzkwYjk0MzRmZGM3NmFkZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTc0ZGQyZmM4ODk5ZDZkMjBhMmQxMzg0MmZkYmUxMzk4ZDk1ZDZlZDQyMmZiM2EwNzkwYjk0MzRmZGM3NmFkZjBhIiwidWlkIjoiNTQyZDBmNmYyNGUwOTg2ZjNkNTk3OTVlMWYyYWQzMTkiLCJ1c2VybmFtZSI6ImJkYWhsIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3MjQ2NTM2LCJoYXNoIjoiZmUyYmJhYTFlNGI2MzhkNDBmY2VhY2YyNDY3NWM2OTUzNjIwZjJhNTRmOTgyZGRlNDI5MmJlZDU0MjNmYzE2YzI1MzRiZGU5YzAyMTFmNWIyZTU5YmMyODM4MTg0OTAzNzc4MGFiZGIyZmE3MDZjZWYwNjgwYjhhMzE2NGYzMzIiLCJoYXNoX21ldGEiOiJiNmY5NjBhZDIyOGRhM2I2ODg1ZmYxNGM1M2ZjNjJmMjAxYjBmMWFiODQwODU0MjNlYTBjN2EwMmVhZTg4MGRjIiwic2Vxbm8iOjE1MjA3MzR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYnNkYWhsLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMzIn0sImN0aW1lIjoxNTA3MjQ2NTc1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6Ijk3ODM4YjkxODY0Y2ZiNmE0YTNmZmQ3ZjRmNDI4NmU4Mjc1ODhhZGQ0M2UzNjU3OWMzZmJkYTI4MGFmMjgwNWEiLCJzZXFubyI6MTIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAsBnVrndGsC5PZuOIKHyzNxMf/sNo9qggP/3EInznYXIkE2BHNXFKIleqHDWlvrJqZAIVqLR90GIOYUIZiUVSA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILAX6w8bwNFS2hvwXBgoy8oIGhhtVVQ8RkXS08+QtK1/o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bdahl
+
+==================================================================
