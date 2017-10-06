@@ -1186,6 +1186,18 @@ fieldset {
     margin: 20px 0 20px;
 }
 
+#post h1, #post h2, #post h3, #post h4 {
+    text-align: center;
+}
+
+#post h3 {
+    margin-bottom: 15px;
+}
+
+#post p {
+    line-height: 2em;
+}
+
 
 /* 14. FOOTER
 ==================================================*/

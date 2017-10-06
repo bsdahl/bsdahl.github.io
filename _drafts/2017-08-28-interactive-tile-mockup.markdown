@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Interactive Tile Mockup"
+title:  Interactive Tile Mockup
+author: Benjamin Dahl
 date:   2017-09-15 12:03:10 -0700
 
 images:
