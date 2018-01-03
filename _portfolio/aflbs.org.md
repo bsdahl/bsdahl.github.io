@@ -7,7 +7,7 @@ portfolio_url: https://www.aflbs.org
 
 images:
 
-  - url: assets/img/portfolio/aflbs.org-1366x1073-cropped.png
+  - url: assets/img/portfolio/aflbs.org-1366x1073-cropped.jpg
     alt: AFLBS.ORG
     caption: WordPress redesign for my previous employer
 ---

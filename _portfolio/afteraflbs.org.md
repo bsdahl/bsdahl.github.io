@@ -6,7 +6,7 @@ tags: wordpress
 
 images:
 
-  - url: assets/img/portfolio/afteraflbs.org-1366x1073-cropped.png
+  - url: assets/img/portfolio/afteraflbs.org-1366x1073-cropped.jpg
     alt: AfterAFLBS.ORG
     caption: New informational site for my previous employer
 ---

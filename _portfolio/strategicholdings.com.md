@@ -7,7 +7,7 @@ portfolio_url: http://www.strategicholdings.com/
 
 images:
 
-  - url: assets/img/portfolio/strategicholdings.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/strategicholdings.com-1366x1073-cropped.jpg
     alt: STRATEGICHOLDINGS.COM
     caption: Work in progress! WordPress redesign of local Real Estate Investment Company
 ---

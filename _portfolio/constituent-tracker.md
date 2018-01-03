@@ -7,7 +7,7 @@ portfolio_url: https://github.com/bsdahl/constituent-contact-tracker
 
 images:
 
-  - url: assets/img/portfolio/constituent-tracker-1366x1073-cropped.png
+  - url: assets/img/portfolio/constituent-tracker-1366x1073-cropped.jpg
     alt: Constituent Contact Tracker
     caption: Full-stack database driven app using PHP, MySQL, and Google Maps API
 ---

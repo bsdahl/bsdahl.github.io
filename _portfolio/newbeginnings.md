@@ -7,7 +7,7 @@ portfolio_url: http://newbeginnings.com/
 
 images:
 
-  - url: assets/img/portfolio/newbeginnings.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/newbeginnings.com-1366x1073-cropped.jpg
     alt: NEWBEGINNINGS.COM
     caption: New WordPress site for the New Beginnings project
 ---

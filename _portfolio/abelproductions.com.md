@@ -7,7 +7,7 @@ portfolio_url: http://abelproductions.com/
 
 images:
 
-  - url: assets/img/portfolio/abelproductions.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/abelproductions.com-1366x1073-cropped.jpg
     alt: AbelProductions.com
     caption: Abel Productions Cinematography using WordPress and Video background
 ---

@@ -7,7 +7,7 @@ portfolio_url: https://github.com/bsdahl/staff-student-interactions-tracker
 
 images:
 
-  - url: assets/img/portfolio/staff-students-interactions-1366x1073-cropped.png
+  - url: assets/img/portfolio/staff-students-interactions-1366x1073-cropped.jpg
     alt: Staff Students Interactions Tracker
     caption: Full-stack database driven app using PHP & MySQL
 ---

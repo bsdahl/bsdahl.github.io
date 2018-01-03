@@ -7,7 +7,7 @@ portfolio_url: http://julumedia.com/
 
 images:
 
-  - url: assets/img/portfolio/julumedia.com!new!julu-media-home-1366x1073-cropped.png
+  - url: assets/img/portfolio/julumedia.com!new!julu-media-home-1366x1073-cropped.jpg
     alt: JULUMEDIA.COM
     caption: WordPress redesign for a childrens app designer
 ---

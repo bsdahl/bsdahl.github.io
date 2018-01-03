@@ -7,7 +7,7 @@ portfolio_url: http://kempandcompany.cc
 
 images:
 
-  - url: assets/img/portfolio/kempandcompany.cc-1366x1073-cropped.png
+  - url: assets/img/portfolio/kempandcompany.cc-1366x1073-cropped.jpg
     alt: Rodger Kemp and Company
     caption: Client website using Python Django MVC framework
 ---

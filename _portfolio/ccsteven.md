@@ -7,7 +7,7 @@ portfolio_url: https://www.ccsteven.com
 
 images:
 
-  - url: assets/img/portfolio/ccsteven.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/ccsteven.com-1366x1073-cropped.jpg
     alt: AFLBS.ORG
     caption: Multi-site E-Commerce redesign using WordPress and Woocommerce
 ---

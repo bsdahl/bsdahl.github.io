@@ -7,7 +7,7 @@ portfolio_url: http://brusharbor.com
 
 images:
 
-  - url: assets/img/portfolio/brusharbor.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/brusharbor.com-1366x1073-cropped.jpg
     alt: Brush Arbor
     caption: Redesigned website for local artist Brush Arbor
 ---

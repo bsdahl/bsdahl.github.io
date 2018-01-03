@@ -7,7 +7,7 @@ portfolio_url: http://homeopathy-md.com/
 
 images:
 
-  - url: assets/img/portfolio/homeopathy-md.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/homeopathy-md.com-1366x1073-cropped.jpg
     alt: HOMEOPATHY-MD.COM
     caption: WordPress redesign for a local medical practice
 ---

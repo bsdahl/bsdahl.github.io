@@ -7,7 +7,7 @@ portfolio_url: https://deboradahl.com
 
 images:
 
-  - url: assets/img/portfolio/deboradahl.com-1366x1073-cropped.png
+  - url: assets/img/portfolio/deboradahl.com-1366x1073-cropped.jpg
     alt: Debora Dahl
     caption: My wife's fashion and travel blog using WordPress
 ---
